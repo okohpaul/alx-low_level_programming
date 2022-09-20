@@ -1,16 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
-
-
-/*
- * File: main.h
- * Auth: Paul
-* Desc: Header file containing declarations for all functions
-*/
+#include <stdlib.h>
 
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
-int _strlen(char *s);
+size_t _strlen(const char *str);
 void _puts(char *str);
 void print_rev(char *s);
 void rev_string(char *s);
