@@ -8,6 +8,7 @@ size_t _strlen(const char *str);
 void _puts(char *str);
 void print_rev(char *s);
 void rev_string(char *s);
+void _putchar();
 void puts2(char *str);
 void puts_half(char *str);
 void print_array(int *a, int n);
