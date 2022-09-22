@@ -16,11 +16,4 @@
         {
                dlen++;
         }
-        for (i = 0; src[i] != 0; i++)
-        {
-             dest[dlen] = src[i];
-             dlen++;
-        }
-        dest[dlen] = '\0';
-        return (dest);
 }
