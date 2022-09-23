@@ -11,12 +11,14 @@ nclude "main.h"
 
   char *_strncat(char *dest, char *src, int n)
 {
-	int dlen = 0, j = 0;
-	while (dest[dlen])
-	{
-		dlen++;
-	}
+int index = 0, dest_len = 0;
+while (dest[index++])
+	dest_len++;
+for (index = 0; src[index] && index < n; index++)
+	dest[dest_lenm++] = srx[index];
+return (dest);
 	
 }
+
 
 
