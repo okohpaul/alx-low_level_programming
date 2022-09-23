@@ -9,15 +9,28 @@
  */
 
 
-  char *_strncat(char *dest, char *src, int n)
+ char *_strncat(char *dest, char *src, int n)
 {
-int index = 0, dest_len = 0;
-while (dest[index++])
-	dest_len++;
-for (index = 0; src[index] && index < n; index++)
-	dest[dest_lenm++] = srx[index];
-return (dest);
-	
+		int m;
+			int i;
+
+				m = 0;
+
+					for (i = 0; i < 1000; i++)
+							{
+										if (dest[i] == '\0')
+													{
+																	break;
+																			}
+												m++;
+													}
+
+						for (i = 0; src[i] != '\0' && i < n; i++)
+								{
+											dest[m + i] = src[i];
+												}
+							dest[m + i] = '\0';
+								return (dest);
 }
 
 
